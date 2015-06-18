@@ -1,0 +1,55 @@
+<html>
+<head>
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+<style> 
+    .showInline{
+        display : inline;
+
+    }
+    .hidden{
+        display : none;
+    }
+    #lobby{
+
+    }
+    #ingame{
+
+    }
+    #history-tab{
+
+
+    }
+    #help-tab{
+
+
+    }
+
+</style>
+</head>
+
+<body>
+
+<!-- Lobby -->
+    <div id=lobby>
+                <table>
+                    <thead> Room </thead>
+                    <tbody id=room> </tbody>
+                </table>
+    </div>
+
+
+
+<!-- Game -->
+        <div id=ingame class='hidden'>
+            <div style='height:500px'>
+                <button id=leave-game class='btn'>Exit to Lobby</button>
+            </div>
+            INGAME TEXT
+            <ul class='nav nav-tabs'>
+                <li><a href='#history-tab' data-toggle=tab>Vote History</a></li>
+                <li><a href='#help-tab' data-toggle=tab>Help</a></li>
+            </ul>
+        </div>
+
+</body>
+</html>
